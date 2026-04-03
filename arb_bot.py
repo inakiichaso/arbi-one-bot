@@ -14,13 +14,13 @@ TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 THRESHOLDS = {
-    "USDC": 0.25,
-    "DAI":  0.25,
-    "BTC":  0.30,
-    "ETH":  0.30,
-    "SOL":  0.40,
-    "XRP":  0.40,
-    "BNB":  0.40,
+    "USDC": 0.001,
+    "DAI":  0.001,
+    "BTC":  0.001,
+    "ETH":  0.001,
+    "SOL":  0.001,
+    "XRP":  0.001,
+    "BNB":  0.001,
 }
 
 FEES_ROUNDTRIP = 0.20
